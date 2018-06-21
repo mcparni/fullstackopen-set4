@@ -1,0 +1,32 @@
+{
+  "name": "fullstackopen-set4",
+  "version": "0.0.1",
+  "description": "Fullstack Open 2018 - Osa4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcparni/fullstackopen-set4.git"
+  },
+  "author": "Miika Pärni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcparni/fullstackopen-set4/issues"
+  },
+  "homepage": "https://github.com/mcparni/fullstackopen-set4#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5"
+  }
+}
