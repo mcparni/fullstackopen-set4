@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose",
     "lint": "eslint ."
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/mcparni/fullstackopen-set4#readme",
   "devDependencies": {
     "eslint": "^4.19.1",
+    "jest": "^23.1.0",
     "nodemon": "^1.17.5"
   },
   "dependencies": {
